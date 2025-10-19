@@ -1,20 +1,24 @@
 #include<iostream>
 using namespace std;
-class landvehicle{
-public:
-landvehicle(){
-cout<<"This is a land vehicle"<<endl;
+class parent{
+public: parent()
+{cout<<"parent class construtor\n";
+}
+~parent()
+{
+cout<<"parent class destructor\n";
 }
 };
-class watervehicle{ public:
-watervehicle(){
-cout<<"This is a water vehicle"<<endl;
-}};class amphibiousvehicle:public watervehicle,public landvehicle{ public:
-amphibiousvehicle(){
-cout<<"This is an both land and water vehicle"<<endl;
+class child :public parent{ public:
+child()
+{
+cout<<"child class constructor\n";}
+~child()
+{
+cout<<"child class destructor\n";
 }
 };
 int main(){
 cout<<"Roll No:24B11AI104"<<endl;
-amphibiousvehicle obj; return 0;
+child c; return 0;
 }

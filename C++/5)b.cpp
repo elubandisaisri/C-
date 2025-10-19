@@ -21,11 +21,12 @@ width = w;
 cout << "Rectangle constructor called!" << endl;
 }
 void display() {
-cout << "Length: "<< length << ", Width: " << width << endl;
+cout << "Length: " << length << ", Width: " << width << endl;
 }
 };
 int main() {
-int choice;cout << "Choose how to create the rectangle:\n";
+int choice;
+cout << "Choose how to create the rectangle:\n";
 cout << "1. Default (0x0)\n";
 cout << "2. Square (one side)\n";
 cout << "3. Rectangle (length & width)\n";
@@ -55,4 +56,4 @@ else {
 cout << "Invalid choice!\n";
 }
 return 0;
-}
+} 

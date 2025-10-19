@@ -10,8 +10,7 @@ void setdata(string n,int a)
 {
 name=n;
 age=a;
-}
-void display()
+}void display()
 {
 cout<<"name:"<<name<<endl;
 cout<<"age:"<<age<<endl;

@@ -1,4 +1,4 @@
- #include<iostream>
+#include<iostream>
 using namespace std;
 class complex{
 private:
@@ -23,12 +23,12 @@ complex operator+(const complex& obj){
 return complex(real+obj.real,image+obj.image);
 }
 complex operator-(const complex& obj){
-	return complex(real-obj.real,image-obj.image);
+return complex(real-obj.real,image-obj.image);
 }
 };
 int main(){
 complex c1(3,4),c2(1,2),c3;
-cout<<”Roll No:24B11AI104”<<endl;
+cout<<”Roll No:24B11AI202”<<endl;
 cout<<"original complex numbers:"<<endl;
 cout<<"c1=";c1.display();
 cout<<"c2=";c2.display();

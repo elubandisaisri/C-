@@ -12,8 +12,6 @@ cout<<"This vehicle is a car"<<endl;
 }
 };
 int main( )
-{
-cout<<"Roll No:24B11AI104"<<endl;
+{cout<<"Roll No:24B11AI104"<<endl;
 car obj; return 0;
 }
-

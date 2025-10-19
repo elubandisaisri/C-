@@ -5,9 +5,8 @@ private:
 int length;
 int width;
 public:
-Rectangle(int l, int w) { 
-length = l;
-width = w;
+Rectangle(int l, int w) {
+length = l; width = w;
 }
 Rectangle(const Rectangle &r) {
 length = r.length;
@@ -26,9 +25,9 @@ int l, w;
 cout << "Enter length and width: ";
 cin >> l >> w;
 Rectangle rect1(l, w);
-cout << "\nOriginal Rectangle (rect1):" << endl;
+cout << "\nOriginal Rectangle (rect1):" << endl; 
 rect1.display();
-Rectangle rect2 = rect1; 
+Rectangle rect2 = rect1;
 cout << "\nCopied Rectangle (rect2):" << endl;
 rect2.display();
 rect1.setLength(l + 10);

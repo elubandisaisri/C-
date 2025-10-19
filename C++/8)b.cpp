@@ -25,9 +25,9 @@ class B : public virtual A {
 class C : public virtual A {
  public:
  C() {
- cout<<"C is constructor"<<endl; }
+ cout<<"C is constructor"<<endl;}
 ~C() {
- cout<<"C is destructor"<<endl;}
+ cout<<"C is destructor"<<endl; }
 };
 class D : public B, public C {
  public:
@@ -42,4 +42,3 @@ cout<<”Roll No:24B11AI104”<<endl;
 D obj;
 obj.show();
 return 0; }
-)
